@@ -1,0 +1,13 @@
+var x = 0.0;
+function setup() {
+  createCanvas(640,480);
+}
+
+function draw() {
+  push();
+  background(255);
+  translate(width/2,height/2);
+  ellipse(x,0,50,50);
+  x++;
+  pop();
+}
