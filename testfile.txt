@@ -7,7 +7,7 @@ function draw() {
   push();
   background(255);
   translate(width/2,height/2);
-  ellipse(x,0,50,50);
+  ellipse(x,0,51,51);
   x++;
   pop();
 }
